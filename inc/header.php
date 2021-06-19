@@ -33,7 +33,7 @@ if (isset($_POST['setup'])) {
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <div>
-                <h6 style="text-align: center; color:white;"><?= $_SESSION['user']?></h6>
+                <h6 style="text-align: center; color:white;"><?php if(array_key_exists('user', $_SESSION)) echo $_SESSION['user']; ?></h6>
             </div>
             <li class="sidebar-brand">
                 <a href="./index.php">Accueil</a>

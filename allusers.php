@@ -55,7 +55,7 @@
                         $version = "v110";
                       }
                       ?>
-                      <a href="<?= "http://localhost/Boamp/getmarket.php?userToSearch=" . $data['value'] . "&version=" . $version ?>">
+                      <a href="<?= "getmarket.php?userToSearch=" . $data['value'] . "&version=" . $version ?>">
                         <button type="button" class="btn btn-success">
                           Voir
                         </button>
